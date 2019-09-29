@@ -1110,6 +1110,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   border-bottom: 1px solid #e0e5fa;
   /* border-left: 1px solid #e0e5fa; */
   margin-bottom: 30px;
+  justify-content: center;
 }
 
 #supporters .supporter-logo {
@@ -1131,13 +1132,26 @@ body.mobile-nav-active #mobile-nav-toggle {
   height: 160px;
 }
 
-#supporters .supporter-logo:hover img {
+/* #supporters .supporter-logo:hover img {
   -webkit-transform: scale(1.2);
   transform: scale(1.2);
-}
+} */
 
 #supporters img {
   transition: all 0.4s ease-in-out;
+}
+
+/*--------------------------------------------------------------
+# Organizers Section
+--------------------------------------------------------------*/
+
+#organizers .organizers-wrap {
+  justify-content: center;
+}
+
+#organizers img {
+  max-width: 256px;
+  padding: 1em;
 }
 
 /*--------------------------------------------------------------
