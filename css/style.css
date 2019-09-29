@@ -172,9 +172,9 @@ h6 {
 }
 
 #header #logo h1 {
-  font-size: 36px;
+  font-size: 34px;
   margin: 0;
-  padding: 6px 0;
+  padding: 0 0;
   line-height: 1;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -1107,7 +1107,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #supporters .supporters-wrap {
   border-top: 1px solid #e0e5fa;
-  border-left: 1px solid #e0e5fa;
+  border-bottom: 1px solid #e0e5fa;
+  /* border-left: 1px solid #e0e5fa; */
   margin-bottom: 30px;
 }
 
@@ -1122,10 +1123,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  border-right: 1px solid #e0e5fa;
-  border-bottom: 1px solid #e0e5fa;
+  /* border-right: 1px solid #e0e5fa;
+  border-bottom: 1px solid #e0e5fa; */
   overflow: hidden;
-  background: rgba(255, 255, 255, 0.5);
+  /* background: rgba(255, 255, 255, 0.5); */
+  background: transparent;
   height: 160px;
 }
 
@@ -1718,8 +1720,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 @media (max-width: 440px) {
   #header #logo h1 {
-    font-size: 24px;
-    line-height: 24px;
+    font-size: 20px;
+    line-height: 40px;
   }
 
   #subscribe button {
