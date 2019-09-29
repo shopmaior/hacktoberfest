@@ -1,8 +1,9 @@
-# Hacktoberfest NH Website
+# Hacktoberfest Teresina Website
+## Teresina Hacker Clube / PyLadies Teresina / Shopmaior.com.br
 
-![hacktoberfestnh](img/hacktoberfestnh.png)
+![hacktoberfestnh](img/hacktoberfest.png)
 
-https://hacktoberfestnh.github.io
+https://hacktoberfest.shopmaior.com.br
 
 - [Event release text](docs/RELEASE.md)
 - [Event release text (quoted)](docs/RELEASE-quoted.md)
