@@ -11,6 +11,9 @@
 
 body {
   background: #152246;
+  background-image: url(../img/bg-left2.png),url(../img/bg-right2.png);
+    background-position: bottom left, top right;
+    background-repeat: no-repeat;
   color: #2f3138;
   font-family: "Open Sans", sans-serif;
 }
@@ -145,7 +148,7 @@ h6 {
 }
 
 .section-with-bg {
-  background-color: #152246;
+  /* background-color: #152246; */
 }
 
 /*--------------------------------------------------------------
