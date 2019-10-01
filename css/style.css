@@ -1586,6 +1586,23 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding-top: 30px;
 }
 
+#footer .footer-logos {
+  padding: 10px 5px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+}
+
+#footer .footer-logos p {
+  margin: 10px 6px;
+}
+
+#footer .footer-logos img:hover {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+
 #footer .credits {
   text-align: center;
   font-size: 13px;
